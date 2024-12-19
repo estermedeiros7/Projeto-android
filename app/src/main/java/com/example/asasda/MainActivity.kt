@@ -57,25 +57,25 @@ fun BottomNavigationBar() {
             icon = { Icon(Icons.Default.Home, contentDescription = "Início") },
             label = { Text("Início") },
             selected = false,
-            onClick = { /* Sem ação */ }
+            onClick = {  }
         )
         NavigationBarItem(
             icon = { Icon(Icons.Default.List, contentDescription = "Atividades") },
             label = { Text("Atividades") },
             selected = false,
-            onClick = { /* Sem ação */ }
+            onClick = {  }
         )
         NavigationBarItem(
             icon = { Icon(Icons.Default.Home, contentDescription = "Ajuda") },
             label = { Text("Ajuda") },
             selected = false,
-            onClick = { /* Sem ação */ }
+            onClick = {  }
         )
         NavigationBarItem(
             icon = { Icon(Icons.Default.AccountCircle, contentDescription = "Perfil") },
             label = { Text("Perfil") },
             selected = false,
-            onClick = { /* Sem ação */ }
+            onClick = {  }
         )
     }
 }
@@ -101,7 +101,7 @@ fun AtividadesScreen(modifier: Modifier = Modifier) {
             title = "Pintar a unha",
             description = "Preciso pintar a unha porque esse final de semana tenho um evento importante, e não posso esquecer de ir a manicure. Estou adicionando pois provavelmente vou esquecer de fazer isso.",
             backgroundColor = Color(0xFFE7EDFF),
-            icon = R.drawable.ic_nail // Substitua pelo ícone correto em drawable
+            icon = R.drawable.unhas
         )
 
         Spacer(modifier = Modifier.height(16.dp))
@@ -110,7 +110,7 @@ fun AtividadesScreen(modifier: Modifier = Modifier) {
             title = "Lavar o cabelo",
             description = "Marquei de ir no salão sexta-feira, mas caso eu não consiga ir, sem problemas.",
             backgroundColor = Color(0xFFD4F7E4),
-            icon = R.drawable.ic_hair // Substitua pelo ícone correto em drawable
+            icon = R.drawable.cabelo
         )
     }
 }
